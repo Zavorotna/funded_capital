@@ -10,7 +10,7 @@ html(lang="en")
         title 
     body
         header 
-            include components/header_dash
+            include components/header-dash
         main.wrapper_dash 
             .grid.dash_grid 
                 include components/sidebar 
@@ -21,14 +21,8 @@ html(lang="en")
                         include components/daily_loss_level
                         include components/profit
                     .grid.col_2_dash 
-
                         include components/statistic 
                         .table_container
                             include components/history 
                             include components/daily
-
-
-
-
-
         script(src="js/scripts.js") 
