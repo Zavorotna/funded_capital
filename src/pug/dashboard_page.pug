@@ -1,0 +1,33 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0")
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        link(rel="stylesheet", href="css/styles.css")
+        title 
+    body
+        header 
+            include components/header_dash
+        main.wrapper_dash 
+            .grid.dash_grid 
+                include components/sidebar 
+                .dashboard 
+                    include components/top_head_dash 
+                    .grid.col_3 
+                        include components/profit_target 
+                        include components/daily_loss_level
+                        include components/profit
+                    .grid.col_2_dash 
+
+                        include components/statistic 
+                        .table_container
+                            include components/history 
+
+
+
+
+
+        script(src="js/scripts.js") 

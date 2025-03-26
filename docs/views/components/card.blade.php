@@ -1,0 +1,1 @@
+<div class="card tac"><div class="description"><p class="step">2-step</p><p class="evaluation">evaluation</p><h2 class="price">5k$</h2><p class="sub-price">36$</p></div><form class="tac black_cta" action="#"><button type="submit">buy </button></form></div>

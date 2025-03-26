@@ -1,0 +1,48 @@
+.border_form 
+    .button_block.reg_cta.grid.col_2 
+        a(href="login_page.html") log in
+        a(href="sign up.html").black_cta Sign up
+    form(action="#").form
+        .grid.col_2 
+            label 
+                | First name*
+                input(type="text" placeholder="First name" required oninput="this.value = this.value.replace(/[^a-zA-Zа-яА-ЯїЇєЄіІґҐ ]/g, '')") 
+                span.error
+            label
+                | Last name*
+                input(type="text" placeholder="Last name" required oninput="this.value = this.value.replace(/[^a-zA-Zа-яА-ЯїЇєЄіІґҐ ]/g, '')")
+                span.error
+        div
+            label
+                | Your email*
+                input(type="email" placeholder="nameofemail@gmail.com" required)
+                span.error
+        div
+            label
+                | Password*
+                input(type="password" placeholder="************" required)
+                span.error
+        div
+            label
+                | Confirm Password*
+                input(type="password" placeholder="************" required)
+                span.error
+        div
+            label
+                | Referral Code(Optional)
+                input(type="password" placeholder="QWERTY12345" required)
+                span.error
+        div
+            label.items-center.approve_container
+                span.parent
+                    input(type="checkbox", name="approve" value="1" checked).approve
+                    span
+                | I certify that I am 18 years of age or older, agree to the User Agreement, and acknowledge the Privacy policy.
+        button(type="submit").black_cta create account
+        .tac 
+            span Already have an account? 
+                a(href="login_page.html") Login here
+
+p.bottom_text FUNDED CAPITAL® - is a proprietary company created for traders. Choose your challenge, get a live account and join our team of traders!
+
+            
