@@ -15,4 +15,37 @@ document.addEventListener("DOMContentLoaded", function () {
             }
         })
     })
+    if(document.querySelector("#loginForm")) {
+        const loginForm = document.querySelector("#loginForm"),
+            signupForm = document.querySelector("#signupForm"),
+            bottomText = document.querySelector("#bottomText"),
+            loginBtn = document.querySelector("#loginBtn"),
+            signupBtn = document.querySelector("#signupBtn"),
+            switchToSignup = document.querySelector("#switchToSignup"),
+            switchToLogin = document.querySelector("#switchToLogin")
+            
+        function showLoginForm(e) {
+            e.preventDefault()
+            loginForm.classList.remove("hidden")
+            loginBtn.classList.add("black_cta")
+            signupBtn.classList.remove("black_cta")
+            signupForm.classList.add("hidden")
+            bottomText.classList.add("hidden")
+        }
+        
+        function showSignupForm(e) {
+            e.preventDefault()
+            signupForm.classList.remove("hidden")
+            loginBtn.classList.remove("black_cta")
+            signupBtn.classList.add("black_cta")
+            loginForm.classList.add("hidden")
+            bottomText.classList.remove("hidden")
+        }
+        
+        loginBtn.addEventListener("click", showLoginForm)
+        signupBtn.addEventListener("click", showSignupForm)
+        switchToSignup.addEventListener("click", showSignupForm)
+        switchToLogin.addEventListener("click", showLoginForm)
+    }
+
 })

@@ -9,4 +9,4 @@
 <rect width="50.5932" height="30" fill="white"/>
 </clipPath>
 </defs>
-</svg></a></div><div class="pay_container flex-between items-center"><a href="#"> <img src="img/visa.png" alt=""/></a><a href="#"> <img src="img/mc.png" alt=""/></a><a href="#"> <img src="img/apay.png" alt=""/></a><a href="#"> <img src="img/netteler.png" alt=""/></a><a href="#"> <img src="img/gpay.png" alt=""/></a></div></div><p class="copy tac">&copy copyright 2025</p></div>
+</svg></a></div><div class="pay_container flex-between items-center"><a class="visa" href="#"></a><a class="mc" href="#"></a><a class="apay" href="#"></a><a class="netteler" href="#"></a><a class="gpay" href="#"></a></div></div><p class="copy tac">&copy copyright 2025</p></div>

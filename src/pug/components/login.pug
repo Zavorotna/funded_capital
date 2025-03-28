@@ -1,22 +1,65 @@
-.border_form 
-    .button_block.reg_cta.grid.col_2 
-        a(href="login_page.html").black_cta log in
-        a(href="signup.html") Sign up
-    form(action="#").border_form
+.border_form
+    .button_block.reg_cta.grid.col_2
+        a#loginBtn.tac(href="#") Log in
+        a#signupBtn.black_cta.tac(href="#") Sign up
+    form#loginForm(action="#").form.hidden
         div
             label
-                | Your email*
+                span Your email*
+                input(type="email" placeholder="nameofemail@gmail.com" required)
+                span.error error
+        div
+            label
+                span Password*
+                input(type="password" placeholder="************" required)
+                span.error error
+        .button_form
+            button.black_cta.black(type="submit") Log in
+        .tac 
+            span Dont have an account? 
+                a#switchToSignup(href="#") Sign up
+
+    form#signupForm(action="#").form
+        .grid.col_2.gap
+            label 
+                span First name*
+                input(type="text" placeholder="First name" required oninput="this.value = this.value.replace(/[^a-zA-Zа-яА-ЯїЇєЄіІґҐ ]/g, '')") 
+                span.error
+            label
+                span Last name*
+                input(type="text" placeholder="Last name" required oninput="this.value = this.value.replace(/[^a-zA-Zа-яА-ЯїЇєЄіІґҐ ]/g, '')")
+                span.error
+        div
+            label
+                span Your email*
                 input(type="email" placeholder="nameofemail@gmail.com" required)
                 span.error
         div
             label
-                | Password*
+                span Password*
                 input(type="password" placeholder="************" required)
                 span.error
-        button.black_cta(type="submit") log in
+        div
+            label
+                span Confirm Password*
+                input(type="password" placeholder="************" required)
+                span.error
+        div
+            label
+                span Referral Code(Optional)
+                input(type="text" placeholder="QWERTY12345")
+                span.error
+        div
+            label.items-center.approve_container.gap
+                span.parent
+                    input(type="checkbox", name="approve" value="1" checked).approve
+                    span
+                span I certify that I am 18 years of age or older, agree to the 
+                    a(href="#") User Agreement
+                    | , and acknowledge the 
+                    a(href="")  Privacy policy.
+        .button_form
+            button(type="submit").black_cta Create Account
         .tac 
-            span Dont have an account? 
-                a(href="index.html") Sign up
-
-
-            
+            span Already have an account? 
+                a#switchToLogin(href="#") Login here

@@ -1,1 +1,1 @@
-<div class="tac logo_container"> <div class="logo_text"> <a href="#"><img src="" alt=""/></a></div><h1>your choice is your victory</h1></div>
+<div class="tac logo_container"> <div class="logo_text"> <a href="#"><img src="img/logo.svg" alt=""/></a></div><h1>your choice is your victory</h1></div>
