@@ -10,9 +10,10 @@ html(lang="en")
         title 
     body
         main 
-            .wrapper.flex.card_container
-                - for(let i = 0; i < 5; i++)
-                    include components/card
+            .wrapper.grid.card_container.gap
+                include components/card
+            .wrapper.evalnation 
+                include components/evalnation
         footer 
             include components/footer
         script(src="js/scripts.js") 

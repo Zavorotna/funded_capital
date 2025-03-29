@@ -1,4 +1,4 @@
-<div class="footer black"> <div class="fixed_logo"> <a href="index.html"><img src="img/logo_foot.svg" alt=""/></a></div><div class="wrapper flex-between items-center"><div class="logo_foot"> <a href="index.html"><svg xmlns="http://www.w3.org/2000/svg" width="51" height="30" viewBox="0 0 51 30" fill="none">
+<div class="footer black"> <div class="fixed_logo"> <a href="index.html"><img src="img/logo_foot.svg" alt=""/></a></div><div class="wrapper flex items-center logo_foot_container"><div class="logo_foot"> <a href="index.html"><svg xmlns="http://www.w3.org/2000/svg" width="51" height="30" viewBox="0 0 51 30" fill="none">
 <g clip-path="url(#clip0_123_104)">
 <path d="M0 30.0017V15.028C0 12.9589 0.381147 11.0168 1.14344 9.20186C1.94204 7.38686 3.01289 5.80782 4.35597 4.46474C5.73536 3.08535 7.33256 2.01451 9.14753 1.25221C10.9625 0.453619 12.9046 0.0543213 14.9737 0.0543213H16.226V2.559H14.9737C13.2676 2.559 11.6522 2.88569 10.1276 3.53911C8.60303 4.1925 7.2781 5.08185 6.15282 6.20713C5.02752 7.33243 4.13817 8.65736 3.48478 10.1819C2.83139 11.7065 2.50468 13.3219 2.50468 15.028V30.0017H0Z" fill="#F9F4F1"/>
 <path d="M7.29468 13.7306V16.273H39.5827V13.7306H7.29468Z" fill="#FFAF2E"/>
@@ -9,4 +9,4 @@
 <rect width="50.5932" height="30" fill="white"/>
 </clipPath>
 </defs>
-</svg></a></div><div class="pay_container flex-between items-center"><a class="visa" href="#"></a><a class="mc" href="#"></a><a class="apay" href="#"></a><a class="netteler" href="#"></a><a class="gpay" href="#"></a></div></div><p class="copy tac">&copy copyright 2025</p></div>
+</svg></a></div><div class="pay_container flex items-center"><a class="visa" href="#"></a><a class="mc" href="#"></a><a class="apay" href="#"></a><a class="netteler" href="#"></a><a class="gpay" href="#"></a></div></div><p class="copy tac">&copy copyright 2025</p></div>
