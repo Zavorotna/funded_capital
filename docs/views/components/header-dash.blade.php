@@ -9,4 +9,4 @@
 <rect width="50.5932" height="30" fill="white"/>
 </clipPath>
 </defs>
-</svg></a></div><div class="new_order"> <a class="black_cta" href="#">new order</a></div></div></div>
+</svg></a></div><div class="new_order"> <a class="black tac" href="#">new order</a></div></div></div>

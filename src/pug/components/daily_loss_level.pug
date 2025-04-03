@@ -10,9 +10,10 @@
     h2 Profit Target
     .profit_price 
         p $246
-            span left
+            span  left
     form(action="#")
-        input(type="range") 
+        label
+            input(type="range" min="0" max="1000" step="1" value="1000")#radius 
     .flex-between.items-center 
         .stopoutLevel
             p $4,808.93
