@@ -9,14 +9,10 @@ html(lang="en")
         link(rel="stylesheet", href="css/style.css")
         title 
     body.flex-body
-        header.wrapper
-            include components/logo_header
-        main.wrapper
-            .flex.justify-center.items-center
+        main.wrapper.logo_wrapper.flex.items-center
+            .grid.col_2.items-center.main_form.gap
+                include components/logo_header
                 include components/login
-            p#bottomText.bottom_text.hidden.tac 
-                span FUNDED CAPITAL®
-                | - is a proprietary company created for traders. Choose your challenge, get a live account and join our team of traders! 
         footer 
             include components/footer
 

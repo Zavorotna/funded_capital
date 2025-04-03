@@ -1,12 +1,12 @@
 .statistic_container 
     .grid.col_2.gap
-        .profit_days.statistic_el
+        .profit_days.statistic_el.flex-between
             h3 Profit Days
             p 0/3
-        .inactive_days.statistic_el
+        .inactive_days.statistic_el.flex-between
             h3 Inactive Days
             p 15
-        .average_win.statistic_el 
+        .average_win.statistic_el.flex-between 
             .info 
                 a(href="#").info_btn
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
@@ -24,7 +24,7 @@
                 </svg>
                 | Average Win
             p $53.84
-        .average_loss.statistic_el 
+        .average_loss.statistic_el.flex-between 
             .info 
                 a(href="#").info_btn
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
@@ -42,13 +42,13 @@
                 </svg>
                 | Average Loss
             p -$33.84
-        .ratio.statistic_el
+        .ratio.statistic_el.flex-between
             h3 Win Ratio
             p 70%
-        .trades.statistic_el
+        .trades.statistic_el.flex-between
             h3 Total Trades
             p 15
-    .balance.statistic_el
+    .balance.statistic_el.flex-between
         .flex-between.items-center 
             h3 Account Balance
             p Account Balance

@@ -18,7 +18,6 @@ document.addEventListener("DOMContentLoaded", function () {
     if(document.querySelector("#loginForm")) {
         const loginForm = document.querySelector("#loginForm"),
             signupForm = document.querySelector("#signupForm"),
-            bottomText = document.querySelector("#bottomText"),
             loginBtn = document.querySelector("#loginBtn"),
             signupBtn = document.querySelector("#signupBtn"),
             switchToSignup = document.querySelector("#switchToSignup"),
@@ -30,7 +29,6 @@ document.addEventListener("DOMContentLoaded", function () {
             loginBtn.classList.add("black_cta")
             signupBtn.classList.remove("black_cta")
             signupForm.classList.add("hidden")
-            bottomText.classList.add("hidden")
         }
         
         function showSignupForm(e) {
@@ -39,7 +37,6 @@ document.addEventListener("DOMContentLoaded", function () {
             loginBtn.classList.remove("black_cta")
             signupBtn.classList.add("black_cta")
             loginForm.classList.add("hidden")
-            bottomText.classList.remove("hidden")
         }
         
         loginBtn.addEventListener("click", showLoginForm)
