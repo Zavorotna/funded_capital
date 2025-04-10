@@ -236,11 +236,10 @@ footer
         font-weight: 500
 //evalnation
 .card_container
-    max-width: 70%  
     padding: 50rem 0 30rem
     row-gap: 20rem
     justify-content: center
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr))
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr))
 
 .card
     position: relative
@@ -248,6 +247,8 @@ footer
     border: 1px solid #191919
     background: #F9F4F1
     overflow: hidden
+    min-height: 359rem
+    min-width: 260px
     button
         position: relative
         width: 100%
@@ -272,6 +273,7 @@ footer
         ~ .hover-card
             transform: scale(1.05)
 .hover-card 
+    height: 100%
     transition: all .5s ease
 .description
     padding: 20rem 0rem
@@ -282,20 +284,15 @@ footer
         text-transform: uppercase
         font-weight: 300
     h2
-        padding: 20rem 0 15rem
-        font-size: 42rem
-        +media(1920)
-            padding: 44rem 0 30rem
-            font-size: 72rem
+        font-size: 72rem
+        padding: 44rem 0 30rem
 
 p.step
     font-size: 24rem
     font-weight: 600
 
 .evaluation
-    font-size: 20rem
-    +media(1600)
-        font-size: 26rem
+    font-size: 26rem
 
 .sub-price
     font-size: 36rem
@@ -307,7 +304,7 @@ p.step
     padding-bottom: 50rem
     li
         font-size: 20rem
-        padding: 20rem 30rem 20rem
+        padding: 18rem 30rem 20rem
         border-bottom: 1px solid #191919
 .bold
     text-align: right
@@ -404,7 +401,6 @@ main.wrapper_dash
     a
         justify-content: center
         padding: 12rem 20rem 
-        height: 35px
         background-color: #e1e1e1
         border-radius: 5px
         border: 1px solid #e1e1e1
