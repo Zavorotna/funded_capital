@@ -74,6 +74,8 @@ footer
     +media(768)
         margin: 0 auto
         width: 100%
+    +media(1440)
+        max-width: 1360px
 
 .flex
     display: flex
@@ -176,12 +178,15 @@ footer
 .border_form
     margin-bottom: 50rem
     width: 100%
-    max-width: 671px
     border-radius: 10px
     border: 2px solid #191919
     overflow: hidden
+    +media(1024)
+        width: 35vw
+        max-width: 671px
 
 .form
+    width: 100%
     padding: 24rem 26rem
     border-top: 2px solid #191919
     button
@@ -321,6 +326,7 @@ p.step
     width: 95%
     margin: 0 auto 
     font-size: 20rem
+
 main.wrapper_dash 
     padding-bottom: 100rem
 .new_order
