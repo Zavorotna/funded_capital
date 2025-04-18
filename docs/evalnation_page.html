@@ -1,6 +1,98 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0"><link rel="preconnect" href="https://fonts.googleapis.com">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0"><link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"><link rel="stylesheet" href="css/style.css"><title> </title></head><body class="flex-body"><main class="eval_wrapper flex items-center"><div class="wrapper grid card_container gap"><div class="card tac"><a class="mask" href="#"> </a><div class="hover-card"><div class="description"><p class="step">2-step</p><p class="evaluation">evaluation</p><h2 class="price">5k$</h2><p class="sub-price">36$</p></div><form class="tac" action="#"><button class="black_cta" type="submit">buy </button></form></div></div><div class="card tac"><a class="mask" href="#"> </a><div class="hover-card"><div class="description"><p class="step">2-step</p><p class="evaluation">evaluation</p><h2 class="price">10k$</h2><p class="sub-price">70$</p></div><form class="tac" action="#"><button class="black_cta" type="submit">buy </button></form></div></div><div class="card tac"><a class="mask" href="#"> </a><div class="hover-card"><div class="description"><p class="step">2-step</p><p class="evaluation">evaluation</p><h2 class="price">25k$</h2><p class="sub-price">160$</p></div><form class="tac" action="#"><button class="black_cta" type="submit">buy </button></form></div></div><div class="card tac"><a class="mask" href="#"> </a><div class="hover-card"><div class="description"><p class="step">2-step</p><p class="evaluation">evaluation</p><h2 class="price">50k$</h2><p class="sub-price">270$</p></div><form class="tac" action="#"><button class="black_cta" type="submit">buy </button></form></div></div><div class="card tac"><a class="mask" href="#"> </a><div class="hover-card"><div class="description"><p class="step">2-step</p><p class="evaluation">evaluation</p><h2 class="price">100k$</h2><p class="sub-price">525$</p></div><form class="tac" action="#"><button class="black_cta" type="submit">buy </button></form></div></div></div><div class="wrapper evalnation"> <ul class="eval_list"> <li class="flex-between items-center"><span class="tiny">Max tranding period</span><span class="bold">unlimited</span></li><li class="flex-between items-center"><span class="tiny">Minimum Profitable Days</span><span class="bold">3</span></li><li class="flex-between items-center"><span class="tiny">Max Daily Loss</span><span class="bold">5%</span></li><li class="flex-between items-center"><span class="tiny">Max Loss</span><span class="bold">10%</span></li><li class="flex-between items-center"><span class="tiny">Profit Target</span><span class="bold">step 1 - 10%, step 2 - 5%</span></li><li class="flex-between items-center"><span class="tiny">Profit Share</span><span class="bold">80/20%</span></li></ul></div></main><footer> <div class="footer black"> <div class="fixed_logo"> <a href="index.html"><img src="img/logo_foot.svg" alt=""></a></div><div class="wrapper flex items-center logo_foot_container"><div class="logo_foot"> <a href="index.html"><svg xmlns="http://www.w3.org/2000/svg" width="52rem" height="50rem" viewBox="0 0 52 50" fill="none">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title> </title>
+  </head>
+  <body class="flex-body">
+    <main class="eval_wrapper flex items-center">
+      <div class="wrapper grid card_container gap">
+        <div class="card tac"><a class="mask" href="#"> </a>
+          <div class="hover-card">
+            <div class="description">
+              <p class="step">2-step</p>
+              <p class="evaluation">evaluation</p>
+              <h2 class="price">5k$</h2>
+              <p class="sub-price">36$</p>
+            </div>
+            <form class="tac" action="#">
+              <button class="black_cta" type="submit">buy </button>
+            </form>
+          </div>
+        </div>
+        <div class="card tac"><a class="mask" href="#"> </a>
+          <div class="hover-card">
+            <div class="description">
+              <p class="step">2-step</p>
+              <p class="evaluation">evaluation</p>
+              <h2 class="price">10k$</h2>
+              <p class="sub-price">70$</p>
+            </div>
+            <form class="tac" action="#">
+              <button class="black_cta" type="submit">buy </button>
+            </form>
+          </div>
+        </div>
+        <div class="card tac"><a class="mask" href="#"> </a>
+          <div class="hover-card">
+            <div class="description">
+              <p class="step">2-step</p>
+              <p class="evaluation">evaluation</p>
+              <h2 class="price">25k$</h2>
+              <p class="sub-price">160$</p>
+            </div>
+            <form class="tac" action="#">
+              <button class="black_cta" type="submit">buy </button>
+            </form>
+          </div>
+        </div>
+        <div class="card tac"><a class="mask" href="#"> </a>
+          <div class="hover-card">
+            <div class="description">
+              <p class="step">2-step</p>
+              <p class="evaluation">evaluation</p>
+              <h2 class="price">50k$</h2>
+              <p class="sub-price">270$</p>
+            </div>
+            <form class="tac" action="#">
+              <button class="black_cta" type="submit">buy </button>
+            </form>
+          </div>
+        </div>
+        <div class="card tac"><a class="mask" href="#"> </a>
+          <div class="hover-card">
+            <div class="description">
+              <p class="step">2-step</p>
+              <p class="evaluation">evaluation</p>
+              <h2 class="price">100k$</h2>
+              <p class="sub-price">525$</p>
+            </div>
+            <form class="tac" action="#">
+              <button class="black_cta" type="submit">buy </button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="wrapper evalnation"> 
+        <ul class="eval_list"> 
+          <li class="flex-between items-center"><span class="tiny">Max tranding period</span><span class="bold">unlimited</span></li>
+          <li class="flex-between items-center"><span class="tiny">Minimum Profitable Days</span><span class="bold">3</span></li>
+          <li class="flex-between items-center"><span class="tiny">Max Daily Loss</span><span class="bold">5%</span></li>
+          <li class="flex-between items-center"><span class="tiny">Max Loss</span><span class="bold">10%</span></li>
+          <li class="flex-between items-center"><span class="tiny">Profit Target</span><span class="bold">step 1 - 10%, step 2 - 5%</span></li>
+          <li class="flex-between items-center"><span class="tiny">Profit Share</span><span class="bold">80/20%</span></li>
+        </ul>
+      </div>
+    </main>
+    <footer> 
+      <div class="footer black"> 
+        <div class="fixed_logo"> <a href="index.html"><img src="img/logo_foot.svg" alt=""></a></div>
+        <div class="wrapper flex items-center logo_foot_container">
+          <div class="logo_foot"> <a href="index.html"><svg xmlns="http://www.w3.org/2000/svg" width="52rem" height="50rem" viewBox="0 0 52 50" fill="none">
 <g clip-path="url(#clip0_230_9)">
 <path d="M20.0216 16.7296V20.7233L19.9593 21.2579C19.9593 21.2893 19.9593 21.2893 19.9281 21.3208C19.9281 21.3208 19.897 21.3522 19.8659 21.3522C19.8347 21.3522 19.8347 21.3522 19.8036 21.3522C19.7725 21.3522 19.7725 21.3208 19.7725 21.3208L19.4922 20.8491C19.4922 20.8176 19.4611 20.8176 19.4611 20.8176C19.212 20.6604 19.0563 20.5346 18.9629 20.4717C17.406 18.3019 15.6311 15.912 13.7006 13.2705C13.7006 13.239 13.6695 13.239 13.6695 13.2076C13.6695 13.1761 13.6695 13.1761 13.7006 13.1447C13.7006 13.1447 13.7317 13.1132 13.7629 13.1132C13.794 13.1132 13.794 13.1132 13.8252 13.1132L19.7413 16.5094C19.7725 16.5409 19.8036 16.5409 19.8347 16.5723L20.0216 16.7296Z" fill="#5F5F5F"/>
 <path d="M19.9904 36.1006V41.0378C19.8347 40.912 19.679 40.7547 19.5234 40.5346C19.4922 40.5032 19.4922 40.4717 19.4611 40.4717C19.4299 40.4403 19.3988 40.4403 19.3677 40.4403C19.212 40.4403 19.0874 40.3774 18.994 40.283C16.285 38.0503 12.0192 34.5598 6.16528 29.8113C5.26228 29.0881 3.45629 27.4843 2.27306 26.6038C2.14851 26.5095 2.0551 26.5095 1.96168 26.6038C1.93054 26.6352 1.89941 26.6352 1.86827 26.6352C1.83713 26.6352 1.80599 26.6352 1.77486 26.6038C1.71258 26.5723 1.65031 26.5723 1.61917 26.6038L0.467072 25.2516C0.498209 25.1573 0.560485 25.0944 0.62276 25.0944C0.778449 25.0944 0.903 25.1573 1.02755 25.2201C7.37965 28.8679 13.7006 32.4843 19.9904 36.1006Z" fill="#5F5F5F"/>
@@ -26,7 +118,8 @@
 <rect width="52" height="50" fill="white"/>
 </clipPath>
 </defs>
-</svg></a></div><div class="pay_container flex items-center"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="93" height="16" viewBox="0 0 93 16" fill="none">
+</svg></a></div>
+          <div class="pay_container flex items-center"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="93" height="16" viewBox="0 0 93 16" fill="none">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M0 16H5.26761C5.47996 15.0939 5.75561 13.2617 5.93687 12.2591L7.04922 6.06934C7.08153 5.98012 7.05936 6.03429 7.084 5.99557C7.19789 6.48158 8.602 10.3973 8.81397 11.0295L9.89485 14.1444C9.97132 14.3729 10.0281 14.5712 10.1144 14.7929L10.4394 15.734C10.4782 15.8561 10.4839 16 10.6077 16H29.4257C29.4345 15.6071 30.9129 8.08752 31.1331 6.75403C31.2748 5.89618 31.535 4.41357 31.7143 3.64795H34.6205C34.6205 3.99557 34.1383 6.32153 34.0656 6.74414L33.4912 9.82082C33.1831 11.3588 32.9511 12.8954 32.6376 14.4258C32.5599 14.8047 32.3682 15.6501 32.3682 15.9999H82.0286C82.0286 15.6046 82.6101 12.8302 82.7188 12.1715L83.2484 9.30297C83.2826 9.11352 83.3079 8.98455 83.3364 8.81253C83.3667 8.63005 83.4091 8.51682 83.4091 8.30692H83.4818C83.5066 8.60349 83.6672 8.97532 83.7515 9.26689L85.1938 14.0812C85.2964 14.4107 85.6453 15.7404 85.7706 15.9999H91.0382C90.9782 15.7439 90.8397 15.4423 90.7518 15.2011C90.6542 14.9333 90.5504 14.6828 90.4528 14.415C90.2465 13.8491 88.73 9.9887 88.6405 9.60725C89.0843 9.59746 90.0461 9.27131 90.4086 9.08968C90.6965 8.94545 90.8686 8.85954 91.1257 8.683C91.3187 8.55045 91.6104 8.32916 91.7498 8.14772C91.9209 7.92482 92.0977 7.75431 92.245 7.5204C92.4013 7.27179 92.5204 7.02431 92.6316 6.74894C92.9112 6.05596 93 5.26434 93 4.4065C93 1.95017 91.1127 0.745737 88.9523 0.268205C88.2317 0.108997 87.3147 0.000188453 86.461 0.000188453H79.8856C79.7373 0.000188453 79.7006 0.523033 79.6725 0.691286C79.3653 2.52831 78.9952 4.29732 78.6658 6.11927L77.8049 10.7893C77.7271 11.2416 77.5348 11.8845 77.5243 12.3522H69.4595C69.4924 12.284 69.968 9.73302 69.968 9.57127H74.836C75.0222 8.77654 75.2081 7.63862 75.3495 6.7951C75.3703 6.67131 75.4142 6.53198 75.4173 6.39293H70.5856C70.5856 6.03335 70.8601 4.7919 70.9461 4.36759C70.9879 4.16147 71.0579 3.86924 71.0579 3.64805H75.9985C76.1478 3.64805 76.1968 3.01696 76.2375 2.80217C76.4119 1.88083 76.5508 0.898728 76.7614 0.000188453H66.5533C66.5533 0.30391 66.097 2.58116 66.0296 2.9106C65.9276 3.4081 65.8539 3.89449 65.7568 4.37306L64.9449 8.76665C64.8743 9.17522 64.4174 11.3717 64.41 11.702H60.7045C60.7045 11.4789 62.2478 3.33415 62.33 2.91625C62.4282 2.41573 62.5164 1.9593 62.6035 1.45464C62.6456 1.21093 62.804 0.166086 62.8842 0H57.544C57.3144 0.97984 56.9292 3.27715 56.7295 4.39105C56.641 4.88488 56.553 5.37626 56.4576 5.85436L55.6397 10.242C55.5456 10.7446 55.4747 11.2313 55.3644 11.702H51.7679C51.774 11.43 52.5094 7.69684 52.5825 7.31098L53.3996 2.92247C53.5909 1.96769 53.7252 0.949317 53.9476 9.41546e-05H48.6074C48.6003 0.316722 47.0268 8.47819 46.9 9.24607C46.7562 10.1172 46.503 11.5662 46.3188 12.3521H38.2177L38.4719 10.9797C38.5455 10.5342 38.6888 10.0183 38.7262 9.57108C39.2294 9.57108 43.3333 9.61149 43.5216 9.57108C43.6811 9.53688 43.6528 9.34913 43.6823 9.18907L44.0994 6.89496C44.1304 6.7398 44.1755 6.60132 44.1755 6.42883L39.3076 6.39275C39.3686 6.26623 39.8117 3.84739 39.8161 3.64786H44.793C44.9529 3.64786 45.0199 2.94724 45.0424 2.81234L45.3836 0.948375C45.4407 0.657749 45.4862 0.297315 45.5559 0H13.8415C13.8415 0.338295 13.704 0.862741 13.6388 1.20707C13.184 3.60933 12.7701 6.17409 12.2883 8.53255L12.1195 9.44823C12.0882 9.62986 12.1362 9.63457 12.0252 9.7155C11.9981 9.39171 9.15566 1.93877 8.71485 0.618464C8.64786 0.417899 8.55357 0.222704 8.50136 0H2.94314C2.93584 0.325294 2.13136 4.37372 2.03006 4.97937L1.4691 7.99717C1.29343 8.96854 0.000568516 15.6661 0.000568516 15.9999L0 16ZM87.8267 5.37428C87.5511 7.69779 85.476 7.57899 83.5713 7.56128L84.357 3.27122C85.8507 3.25134 87.9575 3.27169 87.8267 5.37428ZM17.9024 6.41818L18.4038 3.6227H26.4468L24.8121 12.3775H16.7473L17.2922 9.53867H22.3709L22.9376 6.41818H17.9025H17.9024Z" fill="#82B93B"/>
 </svg></a><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="96" height="16" viewBox="0 0 96 16" fill="none">
 <g clip-path="url(#clip0_231_24)">
@@ -61,12 +154,14 @@
 <rect width="49" height="16" fill="white"/>
 </clipPath>
 </defs>
-</svg></a><a href="#"> <svg xmlns="http://www.w3.org/2000/svg" width="129" height="20" viewBox="0 0 129 20" fill="none">
+</svg></a><a href="#">
+               <svg xmlns="http://www.w3.org/2000/svg" width="129" height="20" viewBox="0 0 129 20" fill="none">
 <path d="M49.5481 14.8252V9.52956C49.5481 7.50386 48.3099 6.17738 46.1843 6.17738C45.1215 6.17738 43.9658 6.52699 43.1713 7.67866C42.5522 6.71208 41.6648 6.17738 40.3337 6.17738C39.4464 6.17738 38.559 6.44473 37.8573 7.41131V6.35219H36V14.8252H37.8573V10.1465C37.8573 8.64524 38.6518 7.93573 39.89 7.93573C41.1283 7.93573 41.7474 8.72751 41.7474 10.1465V14.8252H43.6047V10.1465C43.6047 8.64524 44.4921 7.93573 45.6374 7.93573C46.8756 7.93573 47.4947 8.72751 47.4947 10.1465V14.8252H49.5481ZM77.0983 6.35219H74.0853V3.79177H72.228V6.35219H70.5461V8.02828H72.228V11.9152C72.228 13.8586 73.0225 15 75.1481 15C75.9426 15 76.83 14.7326 77.4491 14.383L76.9126 12.7892C76.376 13.1388 75.7569 13.2314 75.3132 13.2314C74.4258 13.2314 74.075 12.6967 74.075 11.8226V8.02828H77.088V6.35219H77.0983ZM92.8649 6.16709C91.8021 6.16709 91.0901 6.7018 90.6464 7.40103V6.3419H88.7891V14.8149H90.6464V10.0437C90.6464 8.63496 91.2655 7.8329 92.4212 7.8329C92.772 7.8329 93.2157 7.92545 93.5768 8.00771L94.1134 6.23907C93.7419 6.16709 93.2157 6.16709 92.8649 6.16709ZM69.0396 7.05142C68.1522 6.43445 66.914 6.16709 65.5829 6.16709C63.4573 6.16709 62.0437 7.22622 62.0437 8.90232C62.0437 10.3111 63.1065 11.1131 64.9638 11.3702L65.8512 11.4627C66.8211 11.6375 67.3577 11.9049 67.3577 12.347C67.3577 12.964 66.6457 13.4062 65.4075 13.4062C64.1693 13.4062 63.1891 12.964 62.57 12.5219L61.6826 13.9306C62.6525 14.6401 63.9836 14.9897 65.3147 14.9897C67.7911 14.9897 69.215 13.838 69.215 12.2545C69.215 10.7532 68.0594 9.96144 66.2949 9.69409L65.4075 9.60154C64.613 9.509 63.9939 9.33419 63.9939 8.80977C63.9939 8.1928 64.613 7.84319 65.5933 7.84319C66.6561 7.84319 67.7189 8.28535 68.2554 8.5527L69.0396 7.05142ZM118.455 6.16709C117.392 6.16709 116.68 6.7018 116.236 7.40103V6.3419H114.379V14.8149H116.236V10.0437C116.236 8.63496 116.855 7.8329 118.011 7.8329C118.362 7.8329 118.805 7.92545 119.167 8.00771L119.703 6.25964C119.342 6.1671 118.816 6.16709 118.455 6.16709ZM94.7222 10.5887C94.7222 13.1491 96.497 15 99.2417 15C100.48 15 101.367 14.7326 102.255 14.0334L101.367 12.5321C100.655 13.0668 99.9536 13.3239 99.1488 13.3239C97.6423 13.3239 96.5795 12.2648 96.5795 10.5887C96.5795 8.99486 97.6423 7.93573 99.1488 7.85347C99.9433 7.85347 100.655 8.12082 101.367 8.64525L102.255 7.14396C101.367 6.43445 100.48 6.17738 99.2417 6.17738C96.497 6.1671 94.7222 8.02828 94.7222 10.5887ZM111.902 10.5887V6.35219H110.045V7.41131C109.426 6.61954 108.539 6.17738 107.383 6.17738C104.989 6.17738 103.132 8.02828 103.132 10.5887C103.132 13.1491 104.989 15 107.383 15C108.621 15 109.508 14.5578 110.045 13.7661V14.8252H111.902V10.5887ZM105.082 10.5887C105.082 9.0874 106.052 7.85347 107.651 7.85347C109.158 7.85347 110.22 9.00514 110.22 10.5887C110.22 12.09 109.158 13.3239 107.651 13.3239C106.062 13.2314 105.082 12.0797 105.082 10.5887ZM82.856 6.16709C80.3796 6.16709 78.6048 7.93573 78.6048 10.5784C78.6048 13.2314 80.3796 14.9897 82.9489 14.9897C84.1871 14.9897 85.4253 14.6401 86.4055 13.838L85.5181 12.5116C84.8062 13.0463 83.9188 13.3959 83.0417 13.3959C81.8861 13.3959 80.7407 12.8612 80.4724 11.3702H86.7564C86.7564 11.1028 86.7564 10.928 86.7564 10.6607C86.8389 7.93573 85.2395 6.16709 82.856 6.16709ZM82.856 7.76092C84.0117 7.76092 84.8062 8.47044 84.9816 9.78663H80.555C80.7304 8.64524 81.5249 7.76092 82.856 7.76092ZM129 10.5887V3H127.143V7.41131C126.524 6.61954 125.636 6.17738 124.481 6.17738C122.087 6.17738 120.229 8.02828 120.229 10.5887C120.229 13.1491 122.087 15 124.481 15C125.719 15 126.606 14.5578 127.143 13.7661V14.8252H129V10.5887ZM122.18 10.5887C122.18 9.0874 123.149 7.85347 124.749 7.85347C126.255 7.85347 127.318 9.00514 127.318 10.5887C127.318 12.09 126.255 13.3239 124.749 13.3239C123.149 13.2314 122.18 12.0797 122.18 10.5887ZM60.0007 10.5887V6.35219H58.1433V7.41131C57.5242 6.61954 56.6369 6.17738 55.4812 6.17738C53.0873 6.17738 51.23 8.02828 51.23 10.5887C51.23 13.1491 53.0873 15 55.4812 15C56.7194 15 57.6068 14.5578 58.1433 13.7661V14.8252H60.0007V10.5887ZM53.0976 10.5887C53.0976 9.0874 54.0676 7.85347 55.6669 7.85347C57.1734 7.85347 58.2362 9.00514 58.2362 10.5887C58.2362 12.09 57.1734 13.3239 55.6669 13.3239C54.0676 13.2314 53.0976 12.0797 53.0976 10.5887Z" fill="white"/>
 <path d="M20.5308 2.13916H11.78V17.8608H20.5308V2.13916Z" fill="#FF5A00"/>
 <path d="M12.3625 10C12.3625 6.80583 13.8641 3.97087 16.1683 2.13916C14.4725 0.805825 12.3333 0 10 0C4.47249 0 0 4.47249 0 10C0 15.5275 4.47249 20 10 20C12.3333 20 14.4725 19.1942 16.1683 17.8608C13.8608 16.055 12.3625 13.1942 12.3625 10Z" fill="#EB001B"/>
 <path d="M32.3366 10C32.3366 15.5275 27.8641 20 22.3366 20C20.0033 20 17.8641 19.1942 16.1683 17.8608C18.5017 16.0259 19.9742 13.1942 19.9742 10C19.9742 6.80583 18.4725 3.97087 16.1683 2.13916C17.8609 0.805825 20 0 22.3334 0C27.8641 0 32.3366 4.50162 32.3366 10Z" fill="#F79E1B"/>
-</svg></a><a href="#"> <svg xmlns="http://www.w3.org/2000/svg" width="51" height="20" viewBox="0 0 51 20" fill="none">
+</svg></a><a href="#">
+               <svg xmlns="http://www.w3.org/2000/svg" width="51" height="20" viewBox="0 0 51 20" fill="none">
 <path d="M3.58978 9.69179C3.61045 9.76069 3.63113 9.82271 3.64491 9.89161C3.48643 10.1328 3.23149 10.2637 3.0179 10.429C2.37711 10.9251 1.73633 11.4212 1.09554 11.9104C1.03353 11.9587 0.978406 12.0138 0.888833 11.9931C0.640787 11.5039 0.454752 11.0216 0.316948 10.5462C0.310058 10.5186 0.303168 10.4911 0.289388 10.4635C0.268717 10.3877 0.248047 10.305 0.227376 10.2292C0.206706 10.1534 0.192925 10.0708 0.172255 9.99496C0.165364 9.97429 0.165365 9.96051 0.158474 9.93984C0.124023 9.7607 0.0895723 9.58155 0.0689018 9.4093C0.0689018 9.37485 0.0620118 9.33351 0.0551217 9.29906C0.0206708 9.03034 0.00689018 8.7754 0 8.52046V8.11394C0.0344509 6.7428 0.39274 5.64726 0.620116 5.08226C0.627006 5.06848 0.633897 5.0547 0.633897 5.04092C0.689018 4.9169 0.744139 4.79287 0.799261 4.67574C0.799261 4.66885 0.806151 4.66885 0.806151 4.66885C0.833712 4.60684 0.847492 4.51038 0.957735 4.53105C1.79834 5.1994 2.65961 5.84018 3.50021 6.50853C3.56222 6.55676 3.6518 6.59121 3.64491 6.69456C3.29351 7.68675 3.27284 8.68583 3.58978 9.69179Z" fill="#FABB04"/>
 <path d="M0.0758057 9.4093C0.0964762 9.58156 0.130927 9.7607 0.165378 9.93985C0.137817 9.79515 0.110256 9.65735 0.0826957 9.51265C0.0826957 9.4782 0.0758057 9.44375 0.0758057 9.4093Z" fill="#FABB04"/>
 <path d="M0.888779 12C0.640733 11.5383 0.454698 11.056 0.316895 10.553C0.454698 11.0216 0.640733 11.5108 0.888779 12Z" fill="#FABB04"/>
@@ -80,7 +175,9 @@
 <path d="M0.0620117 9.29901C0.0689019 9.33346 0.0757921 9.3748 0.0757921 9.40925C0.068902 9.3748 0.0689019 9.33346 0.0620117 9.29901Z" fill="#FABB04"/>
 <path d="M0.179199 9.99493C0.21365 10.1534 0.248101 10.3119 0.296332 10.4635C0.248101 10.305 0.21365 10.1534 0.179199 9.99493Z" fill="#FABB04"/>
 <path d="M0.81307 4.68262C0.751058 4.80664 0.695936 4.92377 0.647705 5.0478C0.730387 4.84109 0.792399 4.71707 0.81307 4.68262Z" fill="#FABB04"/>
-</svg> </a></div><div class="social flex items-center gap"> <a href="#"> <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+</svg> </a></div>
+          <div class="social flex items-center gap"> <a href="#">
+               <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
 <g clip-path="url(#clip0_233_120)">
 <path d="M14.2 19.76H5.79999C2.71999 19.76 0.23999 17.28 0.23999 14.2V5.79999C0.23999 2.71999 2.71999 0.23999 5.79999 0.23999H14.2C17.28 0.23999 19.76 2.71999 19.76 5.79999V14.2C19.76 17.28 17.28 19.76 14.2 19.76ZM5.79999 1.91999C3.63999 1.91999 1.91999 3.67999 1.91999 5.79999V14.2C1.91999 16.36 3.67999 18.08 5.79999 18.08H14.2C16.36 18.08 18.08 16.32 18.08 14.2V5.79999C18.08 3.63999 16.32 1.91999 14.2 1.91999H5.79999Z" fill="white"/>
 <path d="M10 15C7.24 15 5 12.76 5 10C5 7.24 7.24 5 10 5C12.76 5 15 7.24 15 10C15 12.76 12.76 15 10 15ZM10 6.68C8.16 6.68 6.68 8.16 6.68 10C6.68 11.84 8.16 13.32 10 13.32C11.84 13.32 13.32 11.84 13.32 10C13.32 8.16 11.84 6.68 10 6.68Z" fill="white"/>
@@ -91,7 +188,8 @@
 <rect width="20" height="20" fill="white"/>
 </clipPath>
 </defs>
-</svg> </a><a href="#"> <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+</svg> </a><a href="#">
+               <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
 <g clip-path="url(#clip0_233_134)">
 <path d="M18.36 17.96L11.8 8.44L11.04 7.36L6.39999 0.56L5.99999 0H0.23999L1.63999 2.04L7.87999 11.08L8.63999 12.16L13.64 19.44L14.04 20H19.8L18.36 17.96ZM14.72 18.68L9.51999 11.12L8.75999 10.04L2.71999 1.32H5.31999L10.2 8.4L10.96 9.48L17.32 18.72H14.72V18.68Z" fill="white"/>
 <path d="M8.75999 10.08L9.51999 11.16L8.63999 12.16L1.87999 20H0.23999L7.87999 11.08L8.75999 10.08Z" fill="white"/>
@@ -102,4 +200,12 @@
 <rect width="20" height="20" fill="white"/>
 </clipPath>
 </defs>
-</svg> </a></div></div><p class="privacy wrapper"><a href="#">Privacy Policy </a></p><p class="copy tac">&copy copyright 2025</p></div></footer><script src="js/scripts.js"> </script></body></html>
+</svg> </a></div>
+        </div>
+        <p class="privacy wrapper"><a href="#">Privacy Policy </a></p>
+        <p class="copy tac">&copy copyright 2025</p>
+      </div>
+    </footer>
+    <script src="js/scripts.js"> </script>
+  </body>
+</html>

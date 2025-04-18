@@ -1,19 +1,71 @@
-<div class="statistic_container"> <div class="grid col_2 gap"><div class="profit_days statistic_el flex-between"><h3>Profit Days</h3><p>0/3</p></div><div class="inactive_days statistic_el flex-between"><h3>Inactive Days</h3><p>15</p></div><div class="average_win statistic_el flex-between"> <div class="info"> <a class="info_btn" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+
+<div class="statistic_container"> 
+  <div class="grid col_2 gap">
+    <div class="profit_days statistic_el flex-between">
+      <h3>Profit Days</h3>
+      <p>0/3</p>
+    </div>
+    <div class="inactive_days statistic_el flex-between">
+      <h3>Inactive Days</h3>
+      <p>15</p>
+    </div>
+    <div class="average_win statistic_el flex-between"> 
+      <div class="info"> <a class="info_btn" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M10 19C14.9706 19 19 14.9706 19 10C19 5.02944 14.9706 1 10 1C5.02944 1 1 5.02944 1 10C1 14.9706 5.02944 19 10 19ZM10 20C15.5228 20 20 15.5228 20 10C20 4.47715 15.5228 0 10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20Z" fill="#999999"/>
 <path d="M10.3712 7.02038V14.7368H9.60744V7.02038H10.3712ZM9.47266 4.78817C9.47266 4.62652 9.51759 4.49102 9.60744 4.38167C9.70158 4.26756 9.82995 4.21051 9.99255 4.21051C10.1552 4.21051 10.2835 4.26756 10.3777 4.38167C10.4761 4.49102 10.5253 4.62652 10.5253 4.78817C10.5253 4.94507 10.4761 5.08057 10.3777 5.19468C10.2835 5.30403 10.1552 5.35871 9.99255 5.35871C9.82995 5.35871 9.70158 5.30403 9.60744 5.19468C9.51759 5.08057 9.47266 4.94507 9.47266 4.78817Z" fill="#999999"/>
-</svg></a><p class="description_info"> <Lorem>ipsum dolor sit amet, consectetur adipiscing elit. In at diam lacinia, rhoncus nibh in, vulputate dui.</Lorem></p></div><h3 class="flex items-center">   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+</svg></a>
+        <p class="description_info"> 
+          <Lorem>ipsum dolor sit amet, consectetur adipiscing elit. In at diam lacinia, rhoncus nibh in, vulputate dui.</Lorem>
+        </p>
+      </div>
+      <h3 class="flex items-center">
+           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
 <path d="M17.5 18.9583H2.5C2.15833 18.9583 1.875 18.675 1.875 18.3333C1.875 17.9916 2.15833 17.7083 2.5 17.7083H17.5C17.8417 17.7083 18.125 17.9916 18.125 18.3333C18.125 18.675 17.8417 18.9583 17.5 18.9583Z" fill="#191919"/>
 <path d="M4.66667 6.98334H3.33333C2.875 6.98334 2.5 7.35834 2.5 7.81667V15C2.5 15.4583 2.875 15.8333 3.33333 15.8333H4.66667C5.125 15.8333 5.5 15.4583 5.5 15V7.81667C5.5 7.35 5.125 6.98334 4.66667 6.98334Z" fill="#191919"/>
 <path d="M10.6667 4.32501H9.33333C8.875 4.32501 8.5 4.70001 8.5 5.15835V15C8.5 15.4583 8.875 15.8333 9.33333 15.8333H10.6667C11.125 15.8333 11.5 15.4583 11.5 15V5.15835C11.5 4.70001 11.125 4.32501 10.6667 4.32501Z" fill="#191919"/>
 <path d="M16.6667 1.66669H15.3333C14.875 1.66669 14.5 2.04169 14.5 2.50002V15C14.5 15.4584 14.875 15.8334 15.3333 15.8334H16.6667C17.125 15.8334 17.5 15.4584 17.5 15V2.50002C17.5 2.04169 17.125 1.66669 16.6667 1.66669Z" fill="#191919"/>
-</svg>Average Win</h3><p>$53.84</p></div><div class="average_loss statistic_el flex-between"> <div class="info"> <a class="info_btn" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+</svg>Average Win
+      </h3>
+      <p>$53.84</p>
+    </div>
+    <div class="average_loss statistic_el flex-between"> 
+      <div class="info"> <a class="info_btn" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M10 19C14.9706 19 19 14.9706 19 10C19 5.02944 14.9706 1 10 1C5.02944 1 1 5.02944 1 10C1 14.9706 5.02944 19 10 19ZM10 20C15.5228 20 20 15.5228 20 10C20 4.47715 15.5228 0 10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20Z" fill="#999999"/>
 <path d="M10.3712 7.02038V14.7368H9.60744V7.02038H10.3712ZM9.47266 4.78817C9.47266 4.62652 9.51759 4.49102 9.60744 4.38167C9.70158 4.26756 9.82995 4.21051 9.99255 4.21051C10.1552 4.21051 10.2835 4.26756 10.3777 4.38167C10.4761 4.49102 10.5253 4.62652 10.5253 4.78817C10.5253 4.94507 10.4761 5.08057 10.3777 5.19468C10.2835 5.30403 10.1552 5.35871 9.99255 5.35871C9.82995 5.35871 9.70158 5.30403 9.60744 5.19468C9.51759 5.08057 9.47266 4.94507 9.47266 4.78817Z" fill="#999999"/>
-</svg></a><p class="description_info"> <Lorem>ipsum dolor sit amet, consectetur adipiscing elit. In at diam lacinia, rhoncus nibh in, vulputate dui.</Lorem></p></div><h3 class="flex items-center">   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+</svg></a>
+        <p class="description_info"> 
+          <Lorem>ipsum dolor sit amet, consectetur adipiscing elit. In at diam lacinia, rhoncus nibh in, vulputate dui.</Lorem>
+        </p>
+      </div>
+      <h3 class="flex items-center">
+           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
 <path d="M17.5 18.9583H2.5C2.15833 18.9583 1.875 18.675 1.875 18.3333C1.875 17.9916 2.15833 17.7083 2.5 17.7083H17.5C17.8417 17.7083 18.125 17.9916 18.125 18.3333C18.125 18.675 17.8417 18.9583 17.5 18.9583Z" fill="#191919"/>
 <path d="M4.66667 6.98334H3.33333C2.875 6.98334 2.5 7.35834 2.5 7.81667V15C2.5 15.4583 2.875 15.8333 3.33333 15.8333H4.66667C5.125 15.8333 5.5 15.4583 5.5 15V7.81667C5.5 7.35 5.125 6.98334 4.66667 6.98334Z" fill="#191919"/>
 <path d="M10.6667 4.32501H9.33333C8.875 4.32501 8.5 4.70001 8.5 5.15835V15C8.5 15.4583 8.875 15.8333 9.33333 15.8333H10.6667C11.125 15.8333 11.5 15.4583 11.5 15V5.15835C11.5 4.70001 11.125 4.32501 10.6667 4.32501Z" fill="#191919"/>
 <path d="M16.6667 1.66669H15.3333C14.875 1.66669 14.5 2.04169 14.5 2.50002V15C14.5 15.4584 14.875 15.8334 15.3333 15.8334H16.6667C17.125 15.8334 17.5 15.4584 17.5 15V2.50002C17.5 2.04169 17.125 1.66669 16.6667 1.66669Z" fill="#191919"/>
-</svg>Average Loss</h3><p>-$33.84</p></div><div class="ratio statistic_el flex-between"><h3>Win Ratio</h3><p>70%</p></div><div class="trades statistic_el flex-between"><h3>Total Trades</h3><p>15</p></div></div><div class="balance statistic_el flex-between"><div class="flex-between items-center"> <h3>Account Balance</h3><p>Account Balance</p></div><div class="flex end"> <p>Profit 4%</p><span> <svg xmlns="http://www.w3.org/2000/svg" width="8" height="14" viewBox="0 0 8 14" fill="none">
+</svg>Average Loss
+      </h3>
+      <p>-$33.84</p>
+    </div>
+    <div class="ratio statistic_el flex-between">
+      <h3>Win Ratio</h3>
+      <p>70%</p>
+    </div>
+    <div class="trades statistic_el flex-between">
+      <h3>Total Trades</h3>
+      <p>15</p>
+    </div>
+  </div>
+  <div class="balance statistic_el flex-between">
+    <div class="flex-between items-center"> 
+      <h3>Account Balance</h3>
+      <p>Account Balance</p>
+    </div>
+    <div class="flex end"> 
+      <p>Profit 4%</p><span>
+         <svg xmlns="http://www.w3.org/2000/svg" width="8" height="14" viewBox="0 0 8 14" fill="none">
 <path d="M4.35355 0.646446C4.15829 0.451184 3.84171 0.451184 3.64645 0.646446L0.464467 3.82843C0.269204 4.02369 0.269204 4.34027 0.464467 4.53553C0.659729 4.7308 0.976311 4.7308 1.17157 4.53553L4 1.70711L6.82843 4.53553C7.02369 4.7308 7.34027 4.7308 7.53553 4.53553C7.7308 4.34027 7.7308 4.02369 7.53553 3.82843L4.35355 0.646446ZM4.5 14L4.5 1L3.5 1L3.5 14L4.5 14Z" fill="#191919"/>
-</svg></span></div></div></div>
+</svg></span>
+    </div>
+  </div>
+</div>
