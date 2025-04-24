@@ -1,0 +1,36 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0")
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        link(rel="stylesheet", href="css/style.css")
+        title 
+    body
+        header 
+            include components/header-dash
+        main.wrapper_dash 
+            .grid.dash_grid 
+                include components/sidebar 
+                .withdrawal_container
+                    form(action="#").form
+                        label 
+                            | Choose account login ID*
+                            input(type="text" placeholder="Choose account login ID*" required) 
+                        label 
+                            | Amount in USD*
+                            input(type="text" placeholder="Amount in USD*" required) 
+                        label.arrow_select
+                            | Prefered payment method*
+                            select
+                                option(value="") Lorem, ipsum.
+                                option(value="") Lorem, ipsum.
+                                option(value="") Lorem, ipsum.
+                        .button_form
+                            button(type="submit").black_cta Create Account
+
+
+
+        script(src="js/scripts.js") 

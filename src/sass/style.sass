@@ -39,7 +39,7 @@ label
     span
         display: inline-block
         margin-bottom: 3rem
-input
+input, select
     width: 100%
     appearance: none
     outline: none
@@ -687,6 +687,44 @@ main.wrapper_dash
         text-transform: uppercase
     td
         border-bottom: 1px solid #191919
+//transaction
+.transaction_nav
+    margin-bottom: 30rem
+    padding: 20rem 0 
+    border-bottom: 1px solid #ccc
+    a
+        text-transform: uppercase
+        &:hover
+            text-shadow: 0 0 1px #191919
+
+.active_btn
+    text-shadow: 0 0 1px #191919
+.withdrawal_container
+    padding: 50rem 0
+    width: 50%
+    margin: 0 auto
+    form
+        padding: 20rem
+        border-radius: 15rem
+        border: 1px solid #191919
+.arrow_select
+    display: block
+    position: relative
+    &::before
+        content: ""
+        position: absolute
+        top: 50%
+        right: 20rem
+        width: 10rem
+        height: 10rem
+        border-right: 1px solid #191919
+        border-top: 1px solid #191919
+        transform: translateY(50%) rotate(135deg)
+        z-index: -1
+    select
+        background: transparent
+
+
 //footer
 .footer
     position: relative
